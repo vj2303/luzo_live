@@ -50,9 +50,9 @@ const SalonDetails = async ({ params }) => {
                     <ImageComponent imgUri={salon.salons[0]?.salon_cover_photo} />
 
                     <div className="sm:px-[100px] px-[10px] sm:leading-[30px] ">
-                        <h1 className=" text-[50px] py-[20px] sm:mt-[10px]">{salon.salons[0]?.salon_name}</h1>
+                        <h1 className=" text-[50px] sm:py-[20px] sm:mt-[10px]">{salon.salons[0]?.salon_name}</h1>
                         <div>
-                            <p className="text-[16px] sm:leading-[30px] my-[20px]">{salon.about === "null" ? "" : salon.about}</p>
+                            <p className="text-[16px] sm:leading-[30px] sm:my-[20px]">{salon.about === "null" ? "" : salon.about}</p>
                         </div>
                     </div>
 
